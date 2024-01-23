@@ -1,0 +1,744 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.navbar ul{
+    display: flex;
+    gap:3rem;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo h1{
+    height: 35px;
+    color: white;
+    
+}
+ span{
+    color: #F3B664;
+}
+
+.bar{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.bg{
+    background-color: black;
+    justify-content: space-between;
+    padding: 25px;
+    width: 1750px;
+    display: flex;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.pic{
+    display: flex;
+   align-items: center;
+    gap:2rem;
+}
+
+.frist{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    color: white;
+    
+}
+
+.word{
+    width: 650px;
+    font-size: 35px;
+    padding:60px
+}
+
+.btn{
+    height: 30px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: black;
+    box-shadow: 0px 0px 10px 0px white;
+    cursor: pointer;
+    opacity: 1;
+    color: white;
+}
+
+.divv{
+    padding:15px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn:hover{
+    opacity: 0,6;
+    transition: 0,3s;
+}
+
+.baruu img{
+    padding: 20px;  
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.baruu{
+    display: flex;
+    justify-content: center;
+}
+
+.gambar {
+   padding:40px;
+}
+
+.gambar img{
+    height: 400px;
+    width:500px;
+    border-top-left-radius:90px ;
+    border-bottom-right-radius:90px ;
+}
+
+.wordd h1{
+    display: flex;
+    justify-content: center;
+    
+}
+.wordd p{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.wordd{
+    font-weight: bold;
+    padding-top:30px;
+}
+
+
+.df{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    justify-content: center;
+    padding:30px
+}
+
+.wid{
+    font-weight: bold;
+}
+
+.second{
+    background-color: black;
+    color: white;
+}
+
+.all{
+    background-color: red;
+}
+
+
+.alll{
+    padding:20px;
+}
+
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.picinbx{
+    border: 1px;
+    width: 250px;
+}
+
+.pici{
+    background-color:aliceblue;
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    height: 200px;
+}
+
+.diffco{
+    background-color: antiquewhite ;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.none{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.between{
+    display: flex;
+    padding:15px
+}
+
+.one{
+    padding:30px
+}
+
+.tree{
+    padding:20px
+}
+.two p{
+    width: 400px;
+}
+
+.two h2{
+    width: 250px;
+}
+
+.namee{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    background-color: red;
+    color: white;
+}
+.oke{
+    margin:20px
+}
+
+.oke p{
+    width: 400px;
+}
+
+.koko .koko2{
+   justify-content: space-evenly;
+}
+
+.oness{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    background-color: black;
+    color: white;
+}
+
+.satuu{
+    display: flex;
+   gap:15rem;
+}
+
+.per{
+    display: flex;
+    gap:14rem   
+}
+
+@media screen and (max-width: 1024px){
+     
+.navbar ul{
+    display: flex;
+    gap:3rem;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo h1{
+    height: 35px;
+}
+
+.bar{
+    display: flex;
+    justify-content: center;
+}
+
+.bg{
+    justify-content: space-between;
+    padding: 25px;
+    width: 650px;
+    display: flex;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+
+.frist{
+    display:grid;
+    justify-content: center;
+}
+
+.word{
+    width: 650px;
+    font-size: 35px;
+    padding-bottom:80px;
+    /* margin-bottom:50px; */
+}
+
+.btn{
+    height: 30px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: aqua;
+    box-shadow: 0px 0px 10px 0px white;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.divv{
+    padding: 30px;
+    display:flex;
+    justify-content: center;
+}
+
+.btn:hover{
+    opacity: 0,6;
+    transition: 0,3s;
+}
+
+.baruu img{
+    padding: 20px;  
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-right: 20px;
+    height: 300px;
+}
+
+.baruu{
+    display: flex;
+    justify-content: center ;
+}
+
+.gambar {
+   padding:20px;
+}
+
+.gambar img{
+    height: 400px;
+    width:500px;
+    border-top-left-radius:90px ;
+    border-bottom-right-radius:90px ;
+}
+
+.wordd h1{
+    display: flex;
+    justify-content: center;
+    
+}
+.wordd p{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.wordd{
+    font-weight: bold;
+    padding-top:30px;
+}
+
+
+.df{
+    display: grid;
+    align-items: center;
+    gap: 3rem;
+    padding: 30px;
+}
+.pic{
+    display: flex;
+    
+}
+.koll{
+    display: flex;
+    justify-content: center;
+}
+
+.waduh{
+    justify-content: center;
+}
+
+.wid{
+    font-weight: bold;
+}
+
+
+
+
+.alll{
+    padding:20px;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.picinbx{
+    border: 1px;
+    width: 250px;
+}
+
+.pici{
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    height: 200px;
+}
+
+.diffco{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.none{
+    display: grid;
+    justify-content: center;
+}
+
+.between{
+    display: grid;
+    padding:15px;
+}
+
+.one{
+    padding:30px;
+}
+
+.one img{
+    height: 500px;
+    width: 600px;
+}
+
+.tree{
+    padding:20px
+}
+
+.tree img{
+    height: 500px;
+    width: 600px;
+}
+
+.centerhw{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+.two h2{
+    width: 400px;
+   align-items: center;
+}
+
+.two p{
+    width: 400px;
+}
+
+.namee{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+.oke{
+    margin:20px
+}
+
+.oke p{
+    width: 400px;
+}
+
+.koko .koko2{
+   justify-content: space-evenly;
+}
+
+.oness{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.satuu{
+    display: contents;
+   gap:15rem
+}
+
+.per{
+    display: flex;
+    gap:3rem   
+}
+
+}
+
+@media screen and (max-width:480px){
+    
+    .navbar ul{
+        display: flex;
+        gap:3rem;
+    }
+    
+    .navbar ul li {
+        list-style: none;
+    }
+    
+    .navbar ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .logo h1{
+        height: 35px;
+    }
+    
+    .bar{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .bg{
+        justify-content: space-between;
+        padding: 25px;
+        width: 650px;
+        display: flex;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    
+    
+    
+    .frist{
+        display:grid;
+        justify-content: center;
+    }
+    
+    .word{
+        width: 350px;
+        font-size: 35px;
+        padding-bottom:80px;
+        /* margin-bottom:50px; */
+    }
+
+    .word h1{
+        width: 300px;
+    }
+    
+    .btn{
+        height: 30px;
+        width: 200px;
+        border-radius: 15px;
+
+        cursor: pointer;
+        opacity: 1;
+    }
+    
+    .divv{
+        padding: 30px;
+        display:flex;
+        justify-content: center;
+    }
+    
+    .btn:hover{
+        opacity: 0,6;
+        transition: 0,3s;
+    }
+    
+    .baruu img{
+        padding: 20px;  
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        margin-right: 20px;
+        height: 350px;
+    }
+    
+    .baruu{
+        display: flex;
+        justify-content: center ;
+    }
+    
+    .gambar {
+       padding:90px;
+       display: none;
+    }
+    
+    .gambar img{
+        height: 400px;
+        width:500px;
+        border-top-left-radius:90px ;
+        border-bottom-right-radius:90px ;
+    }
+    
+    .wordd h1{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .wordd p{
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .wordd{
+        font-weight: bold;
+        padding-top:30px;
+    }
+    
+    
+    
+    .df{
+        display: grid;
+        align-items: center;
+        gap: 3rem;
+        padding: 0px;
+    }
+    .pic{
+        display: flex;
+        
+    }
+    .koll{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .waduh{
+        justify-content: center;
+    }
+    
+    .wid{
+        font-weight: bold;
+    }
+    
+   
+    
+   
+    .alll{
+        padding:20px;
+    }
+    
+    
+    .flex{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .picinbx{
+        border: 1px;
+        width: 250px;
+    }
+    
+    .pici{
+        display: flex;
+        justify-content: center;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        height: 200px;
+    }
+    
+    .diffco{
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    
+    .none{
+        display: grid;
+        justify-content: center;
+    }
+    
+    .between{
+        display: grid;
+        padding:1px;
+    }
+    
+    .one{
+        padding:1px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .one img{
+        height: 200px;
+        width: 300px;
+    }
+    
+    .tree{
+        padding:1px;
+    }
+    
+    .tree img{
+        height: 200px;
+        width: 300px;
+    }
+    
+    .centerhw{
+        display: flex;
+        justify-content: center;
+        font-size: large;
+    }
+
+    .two{
+        height: 300px;
+    }
+    
+    .two h2{
+        width: 400px;
+       align-items: center;
+    }
+    
+    .two p{
+        width: 400px;
+    }
+    
+    .namee{
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 40px;
+    }
+    .oke{
+        margin:20px
+    }
+    
+    .oke p{
+        width: 300px;
+    }
+    
+    .koko .koko2{
+       justify-content: space-evenly;
+    }
+
+    
+    .oness{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .namee{
+        display: grid;
+        justify-content:space-evenly ;
+    }
+
+    .satuu{
+        display: grid;
+        justify-content: space-evenly;
+       gap:1rem
+    }
+
+    .per{
+        display: flex;
+        gap:5rem   
+    }
+}
